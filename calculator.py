@@ -1,4 +1,4 @@
-
+# SCCM4910 lab project - a 4 operation calculator
 def add(a, b):
     return a + b
 
