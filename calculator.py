@@ -1,15 +1,18 @@
 # SCCM4910 lab project - a 4 operation calculator
-def add(a, b):
+def add (a, b):
     return a + b
 
 def subtract(a, b):
-    return a - b
+    return a + b
 
 def multiply(a, b):
     return a * b
 
 def divide( a, b):
     return a / b
+
+def test_circleArea():
+    assert CircleArea(-4) == "Error"
 
 def main():
     while True:
@@ -26,6 +29,7 @@ def main():
                print("Result", divide(a, b))
            else:
                print("Unknown operator:", op)
+
 
 
 if  __name__  ==  "__main__":
