@@ -11,8 +11,13 @@ def multiply(a, b):
 def divide( a, b):
     return a / b
 
-def test_circleArea():
-    assert CircleArea(-4) == "Error"
+def CircleArea(r)
+    if r >= 0:
+        return 3.14 * r * r
+    else: 
+        return "NaN"
+
+
 
 def main():
     while True:
