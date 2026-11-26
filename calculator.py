@@ -18,7 +18,6 @@ def CircleArea(r):
         return "Error"
 
 
-
 def main():
     while True:
            a = float(input("first number: "))

@@ -12,7 +12,7 @@ def test_multiply():
 def test_subtract():
     assert subtract(9, 5) == 4
 
-def test_CircleArea():
+def test_circleArea():
     assert CircleArea(-4) == "Error"
 
 
